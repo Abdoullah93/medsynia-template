@@ -13,16 +13,14 @@ export default function Workflows() {
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Tailored Workflows
+                L'expérience utilisateur
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Map your product journey
+              Conçu pour votre spécialité
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Simple and elegant interface to start collaborating with your team
-              in minutes. It seamlessly integrates with your code and your
-              favorite programming languages.
+              Une interface simple et élégante pour commencer à collaborer avec MedSyn'IA en quelques minutes, sans interrompre votre rythme de consultation.
             </p>
           </div>
           {/* Spotlight items */}
@@ -63,13 +61,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Built-in Tools
+                        Ergonomie zéro clic
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Une interface intuitive qui s'adapte automatiquement à votre spécialité pour un confort d'utilisation maximal.
                   </p>
                 </div>
               </div>
@@ -110,13 +107,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Scale Instantly
+                        Totalement Agnostique
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Utilisable instantanément sur votre matériel existant : tablette, PC ou smartphone.
                   </p>
                 </div>
               </div>
@@ -157,13 +153,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Tailored Flows
+                        Mode Live
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Actualisation en temps réel de la consultation pour une lisibilité parfaite pendant l'échange.
                   </p>
                 </div>
               </div>

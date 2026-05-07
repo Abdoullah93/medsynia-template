@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Accueil - MedSyn'IA",
+  description: "L'IA au service des professionnels de santé",
 };
 
 import PageIllustration from "@/components/page-illustration";
@@ -8,6 +8,7 @@ import Hero from "@/components/hero-home";
 import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
+import Pricing from "@/components/pricing";
 import Cta from "@/components/cta";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Workflows />
       <Features />
       <Testimonials />
+      <Pricing />
       <Cta />
     </>
   );

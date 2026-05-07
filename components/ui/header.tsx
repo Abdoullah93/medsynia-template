@@ -13,25 +13,31 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
-            <li>
-              <Link
-                href="/signin"
-                className="btn-sm relative bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] py-[5px] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-              >
-                Sign In
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
-              >
-                Register
-              </Link>
-            </li>
-          </ul>
+          {/* Desktop navigation */}
+          <nav className="flex flex-1 justify-end">
+            <ul className="hidden sm:flex items-center gap-6 text-sm font-medium text-gray-300">
+              <li>
+                <Link href="/" className="hover:text-indigo-400 transition-colors">
+                  Accueil
+                </Link>
+              </li>
+              <li>
+                <Link href="#equipe" className="hover:text-indigo-400 transition-colors">
+                  Qui sommes-nous
+                </Link>
+              </li>
+              <li>
+                <Link href="#prix" className="hover:text-indigo-400 transition-colors">
+                  Prix
+                </Link>
+              </li>
+              <li>
+                <Link href="#contact" className="hover:text-indigo-400 transition-colors">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
